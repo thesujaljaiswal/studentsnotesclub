@@ -1,0 +1,253 @@
+/*NAVBAR PROPERTIES */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar_contents{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_logo{
+    height:100px;
+}
+
+.navbar_links_list{
+    padding: 28px 0;
+}
+
+.navbar_links_list li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar_links_list li a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'Space Grotesk', Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding: 5px 0;
+    
+}
+
+.navbar_container{
+    margin-bottom:100px;
+}
+
+
+
+.btn{
+    background: #9747FF;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* FORM PROPERTIES */
+
+
+.full_form_container{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+div.n1{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* position: absolute; */
+    width: 681px;
+    border-radius: 24px;
+    height: 1000px;
+    left: 380px;
+    /* top: 150px; */
+    
+    background: #293470;
+    border-radius: 24px;
+    }
+
+div.n2{
+        /* position: absolute; */
+        display:flex;
+        justify-content:center;
+        width: 681px;
+        height: 119px;
+        /* top: 0px; */
+    
+        background: #181D38;
+        border-radius: 16px;
+}
+
+.professor_registration_heading{
+    width: 600px;
+    height: 43px;
+    left: 40px;
+
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 51px;
+    
+    color: #FFFFFF;
+
+}
+
+.table_form_input_container{
+    padding-top: 100px;
+
+}
+
+table{
+    width: 681px;
+    border-radius: 24px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.professor_registration_heading{
+    width: 560px;
+    height: 63px;
+    left: 453px;
+    top: 171px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
+
+input{
+    border-radius: 10px;
+    width: 400px;
+    height: 56px;
+}
+
+.table_row_center{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.register_button{
+width: 220px;
+height: 56px;
+left: 623px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+
+
+/*FOOTER CODE*/
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #181D38;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #85B6FF;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
