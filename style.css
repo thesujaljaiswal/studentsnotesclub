@@ -9,9 +9,11 @@
     background-color: #000000;
     padding: 0.8rem;
 }
+a{
+    margin-left: 0.7rem;
+}
 
 .navbtn {
-    margin-left: 0.7rem;
     background: #000000;
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -42,7 +44,6 @@
 }
 
 #loginbtn {
-    margin-left: 0.7rem;
     width: 4rem;
     height: 2rem;
     background: #9747FF;
