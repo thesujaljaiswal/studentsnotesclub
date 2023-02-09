@@ -1,140 +1,45 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <!--NAVBAR CODE-->
-        <!-- Navbar container holding the navbar and its contents-->
-        <div class="navbar_container">
-            <!-- Main Navbar -->
-            <nav class="navbar_contents">
-                <!--Here the navbar logo will be placed-->
-                <div>
-                    
-                </div>
+<body>
 
-                <div>
-                <!-- List of navbar links-->
-                    <ul class="navbar_links_list">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="professor_registration_page.html">ARE YOU A PROFESSOR?</a></li>
-                        <li><a href="student_registration_page.html">ARE YOU A STUDENT?</a></li>
-                        <li class="btn">LOGIN!!!</li>
-                    </ul>
-                </div>
-            </nav>
+    <div class="navbar">
+        <a href="index.html"><button id="homebtn" class="navbtn">Home</button></a>
+        <a href="professor_registration_page.html"><button id="profbtn" class="navbtn">Professor Signup</button></a>
+        <a href="student_registration_page.html"><button id="studentbtn" class="navbtn">Student Signup</button></a>
+        <a href="login.html"><button id="loginbtn">Login</button></a>
+    </div>
+
+
+
+
+
+
+    <!-- LANDING PAGE CODE-->
+    <div class="full_landing_page">
+        <!--Holds the banner image-->
+        <div class="landing_page_image_container">
+            <img src="assets/main_page_banner.png">
         </div>
 
-
-
-
-
-
-
-
-        <!-- LANDING PAGE CODE-->
-        <div class="full_landing_page">
-            <!--Holds the banner image-->
-            <div class="landing_page_image_container">
-                <img src="assets/main_page_banner.png">
+        <!--Holds both the buttons -->
+        <div class="landing_page_button_container">
+            <!--Holds the search for notes button-->
+            <div>
+                <a href='notes_listing_page.html'><button class="landing_page_button1">Search For Notes!</button></a>
             </div>
 
-            <!--Holds both the buttons -->
-            <div class="landing_page_button_container">
-                <!--Holds the search for notes button-->
-                <div>
-                    <a href='notes_listing_page.html'><button class="landing_page_button1">Search For Notes!</button></a>
-                </div>
-
-                <!--Holds the search for professors button-->
-                <div>
-                    <a href='professor_listing_page.html'><button class="landing_page_button2">Search For Professors!</button></a>
-                </div>
-
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-        <!--NOTES CATEGORY CODE-->
-        <div class="full_notes_category">
-
-            <!-- Holds the decorative text and the heading-->
-            <div class="notes_category_text_container">
-                <!--Holds the decorative heading-->
-                <div class="notes_category_text_box">
-                    <h2 id="heading">You May Also Like!</h2>
-                </div>
-
-                <div  class="notes_category_heading_box">
-                    <h1 id="head">Get The Best Notes Of Any Subject</h1>
-                </div>
-
-            </div>
-            
-            
-            <!-- Holds the collection of note categories-->
-            <div class="notes_category_collection">
-                <!-- Notes Category 1 Container-->
-                <div class="notes_category_container">
-                    <div>
-                        <img class='best_notes_image' src="assets/Note-1.png" alt="Note 1">
-                    </div>
-
-                    <div class="notes_category_button">
-                        <button id="button1">Maths Notes</button>
-                    </div>
-                </div>
-
-                <!-- Notes Category 2 Container-->
-                <div class="notes_category_container">
-                    <div>
-                        <img class='best_notes_image' src="assets/Note-2.png" alt="Note 2">
-                    </div>
-
-                    <div class="notes_category_button">
-                        <button id="button2">Chemistry Notes</button>
-                    </div>
-                </div>
-
-
-                <!-- Notes Category 3 Container-->
-                <div class="notes_category_container">
-                    <div>
-                        <img class='best_notes_image' src="assets/Note-3.png" alt="Note 3">
-                    </div>
-
-                    <div class="notes_category_button">
-                        <button id="button3">Arts Notes</button>
-                    </div>
-                </div>
-
-
-                <!-- Notes Category 4 Container-->
-                <div class="notes_category_container">
-                    <div>
-                        <img class='best_notes_image' src="assets/Note-4.png" alt="Note 4">
-                    </div>
-                    
-                    <div class='notes_category_button'>
-                        <button id="button4">Economics Notes</button>
-                    </div>
-                </div>
-
+            <!--Holds the search for professors button-->
+            <div>
+                <a href='professor_listing_page.html'><button class="landing_page_button2">Search For
+                        Professors!</button></a>
             </div>
 
         </div>
-        
+    </div>
 
 
 
@@ -146,78 +51,74 @@
 
 
 
+    <!--NOTES CATEGORY CODE-->
+    <div class="full_notes_category">
 
-
-
-        <!--BEST NOTES CODE-->
-        <div class="full_best_notes">
-
-            <!-- Holds the decorative text and the heading-->
-            <div class="best_notes_text_container">
-                <!--Holds the decorative heading-->
-                <div class="best_notes_text_box">
-                    <h2 id="heading">Popular Notes</h2>
-                </div>
-
-                <div  class="best_notes_heading_box">
-                    <h1 id="head">Best Notes Curated By Elite Professors</h1>
-                </div>
-
+        <!-- Holds the decorative text and the heading-->
+        <div class="notes_category_text_container">
+            <!--Holds the decorative heading-->
+            <div class="notes_category_text_box">
+                <h2 id="heading">You May Also Like!</h2>
             </div>
-            
-            
-            <!-- Holds the collection of best notes-->
-            <div class="best_notes_collection">
-                <!-- best notes 1 Container-->
-                <div class="best_notes_container">
-                    <div>
-                        <img  src="assets/Note-1.png" alt="Note 1">
-                    </div>
 
-                    <div class="best_notes_button">
-                        <button id="button1">Check it out!</button>
-                    </div>
-                </div>
-
-                <!-- best notes 2 Container-->
-                <div class="best_notes_container">
-                    <div>
-                        <img  src="assets/Note-2.png" alt="Note 2">
-                    </div>
-
-                    <div class="best_notes_button">
-                        <button id="button2">Check it out!</button>
-                    </div>
-                </div>
-
-
-                <!-- best notes 3 Container-->
-                <div class="best_notes_container">
-                    <div>
-                        <img  src="assets/Note-3.png" alt="Note 3">
-                    </div>
-
-                    <div class="best_notes_button">
-                        <button id="button3">Check it out!</button>
-                    </div>
-                </div>
-
-
-                <!-- best notes 4 Container-->
-                <div class="best_notes_container">
-                    <div>
-                        <img  src="assets/Note-4.png" alt="Note 4">
-                    </div>
-                    
-                    <div class='best_notes_button'>
-                        <button id="button4">Check it out!</button>
-                    </div>
-                </div>
-
+            <div class="notes_category_heading_box">
+                <h1 id="head">Get The Best Notes Of Any Subject</h1>
             </div>
 
         </div>
-        
+
+
+        <!-- Holds the collection of note categories-->
+        <div class="notes_category_collection">
+            <!-- Notes Category 1 Container-->
+            <div class="notes_category_container">
+                <div>
+                    <img class='best_notes_image' src="assets/Note-1.png" alt="Note 1">
+                </div>
+
+                <div class="notes_category_button">
+                    <button id="button1">Maths Notes</button>
+                </div>
+            </div>
+
+            <!-- Notes Category 2 Container-->
+            <div class="notes_category_container">
+                <div>
+                    <img class='best_notes_image' src="assets/Note-2.png" alt="Note 2">
+                </div>
+
+                <div class="notes_category_button">
+                    <button id="button2">Chemistry Notes</button>
+                </div>
+            </div>
+
+
+            <!-- Notes Category 3 Container-->
+            <div class="notes_category_container">
+                <div>
+                    <img class='best_notes_image' src="assets/Note-3.png" alt="Note 3">
+                </div>
+
+                <div class="notes_category_button">
+                    <button id="button3">Arts Notes</button>
+                </div>
+            </div>
+
+
+            <!-- Notes Category 4 Container-->
+            <div class="notes_category_container">
+                <div>
+                    <img class='best_notes_image' src="assets/Note-4.png" alt="Note 4">
+                </div>
+
+                <div class='notes_category_button'>
+                    <button id="button4">Economics Notes</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 
 
@@ -230,7 +131,91 @@
 
 
 
-        
+
+
+
+    <!--BEST NOTES CODE-->
+    <div class="full_best_notes">
+
+        <!-- Holds the decorative text and the heading-->
+        <div class="best_notes_text_container">
+            <!--Holds the decorative heading-->
+            <div class="best_notes_text_box">
+                <h2 id="heading">Popular Notes</h2>
+            </div>
+
+            <div class="best_notes_heading_box">
+                <h1 id="head">Best Notes Curated By Elite Professors</h1>
+            </div>
+
+        </div>
+
+
+        <!-- Holds the collection of best notes-->
+        <div class="best_notes_collection">
+            <!-- best notes 1 Container-->
+            <div class="best_notes_container">
+                <div>
+                    <img src="assets/Note-1.png" alt="Note 1">
+                </div>
+
+                <div class="best_notes_button">
+                    <button id="button1">Check it out!</button>
+                </div>
+            </div>
+
+            <!-- best notes 2 Container-->
+            <div class="best_notes_container">
+                <div>
+                    <img src="assets/Note-2.png" alt="Note 2">
+                </div>
+
+                <div class="best_notes_button">
+                    <button id="button2">Check it out!</button>
+                </div>
+            </div>
+
+
+            <!-- best notes 3 Container-->
+            <div class="best_notes_container">
+                <div>
+                    <img src="assets/Note-3.png" alt="Note 3">
+                </div>
+
+                <div class="best_notes_button">
+                    <button id="button3">Check it out!</button>
+                </div>
+            </div>
+
+
+            <!-- best notes 4 Container-->
+            <div class="best_notes_container">
+                <div>
+                    <img src="assets/Note-4.png" alt="Note 4">
+                </div>
+
+                <div class='best_notes_button'>
+                    <button id="button4">Check it out!</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -255,120 +240,120 @@
 
 
             <!-- Professor1 -->
-            
-                <div class='instructors_main_card'>
-                        <div class="instructors_image_container">
-                            <img src="assets/girl1.png" alt="girl" id="i1">
-                        </div>
 
-
-                        <div class="instructors_icons_container">
-                            <div class="pro1face">
-                                <img src="assets/facebook.png" alt="facebook" id="i4">
-                            </div>
-
-
-                            <div class="pro1tweet">
-                                <img src="assets/twitter.png" alt="twitter" id="i5">
-                            </div>
-
-
-                            <div class="pro1insta">
-                                <img src="assets/instagram.png" alt="instagram" id="i6">
-                            </div>
-                        </div>
-
-                        
-
-                        <div class="instructors_name_container">
-                            <h1 id="text3">Instructors Name</h1>
-                        </div>
-
-
-                        <div class="instructors_profession_container">
-                            <h6 id="text6">Designation</h6>
-                        </div>
+            <div class='instructors_main_card'>
+                <div class="instructors_image_container">
+                    <img src="assets/girl1.png" alt="girl" id="i1">
                 </div>
 
-            
+
+                <div class="instructors_icons_container">
+                    <div class="pro1face">
+                        <img src="assets/facebook.png" alt="facebook" id="i4">
+                    </div>
+
+
+                    <div class="pro1tweet">
+                        <img src="assets/twitter.png" alt="twitter" id="i5">
+                    </div>
+
+
+                    <div class="pro1insta">
+                        <img src="assets/instagram.png" alt="instagram" id="i6">
+                    </div>
+                </div>
+
+
+
+                <div class="instructors_name_container">
+                    <h1 id="text3">Instructors Name</h1>
+                </div>
+
+
+                <div class="instructors_profession_container">
+                    <h6 id="text6">Designation</h6>
+                </div>
+            </div>
+
+
 
 
             <!-- Professor2 -->
-            
-                <div class="instructors_main_card">
-                    <!-- Holds Instructors Image-->
-                    <div class="instructors_image_container">
-                        <img src="assets/boy1.png" alt="boy" id="i2">
-                    </div>
 
-
-                    <!--Holds instructors socal media handle-->
-                    <div class="instructors_icons_container">
-                        <div class="pro1face">
-                            <img src="assets/facebook.png" alt="facebook" id="i7">
-                        </div>
-
-
-                        <div class="pro1tweet">
-                            <img src="assets/twitter.png" alt="twitter" id="i8">
-                        </div>
-
-
-                        <div class="pro1insta">
-                            <img src="assets/instagram.png" alt="instagram" id="i9">
-                        </div>
-                        
-                    </div>
-
-
-                    <!--holds instructors name-->
-                    <div class="instructors_name_container">
-                        <h1 id="text4">Instructors Name</h1>
-                    </div>
-
-                    <!--holds instructors profession-->
-                    <div class="instructors_name_container">
-                        <h6 id="text7">Designation</h6>
-                    </div>
-                        
-    
+            <div class="instructors_main_card">
+                <!-- Holds Instructors Image-->
+                <div class="instructors_image_container">
+                    <img src="assets/boy1.png" alt="boy" id="i2">
                 </div>
 
-            
+
+                <!--Holds instructors socal media handle-->
+                <div class="instructors_icons_container">
+                    <div class="pro1face">
+                        <img src="assets/facebook.png" alt="facebook" id="i7">
+                    </div>
+
+
+                    <div class="pro1tweet">
+                        <img src="assets/twitter.png" alt="twitter" id="i8">
+                    </div>
+
+
+                    <div class="pro1insta">
+                        <img src="assets/instagram.png" alt="instagram" id="i9">
+                    </div>
+
+                </div>
+
+
+                <!--holds instructors name-->
+                <div class="instructors_name_container">
+                    <h1 id="text4">Instructors Name</h1>
+                </div>
+
+                <!--holds instructors profession-->
+                <div class="instructors_name_container">
+                    <h6 id="text7">Designation</h6>
+                </div>
+
+
+            </div>
+
+
 
 
             <!-- Professor3 -->
-            
-                <div class="instructors_main_card ">
-                    <div class="instructors_image_container">
-                        <img src="assets/boy2.png" alt="boy" id="i3">
-                    </div>
-                    
-                    <div class="instructors_icons_container">
-                        <div class="pro1face">
-                            <img src="assets/facebook.png" alt="facebook" id="i10">
-                        </div>
-                        <div class="pro1tweet">
-                            <img src="assets/twitter.png" alt="twitter" id="i11">
-                        </div>
-                        <div class="pro1insta">
-                            <img src="assets/instagram.png" alt="instagram" id="i12">
-                        </div>
 
-                    </div>
-
-                    <div class="instructors_name_container">
-                        <h1 id="text5">Instructors Name</h1>
-                    </div>
-
-                    <div class="instructors_profession_container">
-                        <h6 id="text8">Designation</h6>
-                    </div>
-        
+            <div class="instructors_main_card ">
+                <div class="instructors_image_container">
+                    <img src="assets/boy2.png" alt="boy" id="i3">
                 </div>
 
+                <div class="instructors_icons_container">
+                    <div class="pro1face">
+                        <img src="assets/facebook.png" alt="facebook" id="i10">
+                    </div>
+                    <div class="pro1tweet">
+                        <img src="assets/twitter.png" alt="twitter" id="i11">
+                    </div>
+                    <div class="pro1insta">
+                        <img src="assets/instagram.png" alt="instagram" id="i12">
+                    </div>
 
-            
+                </div>
+
+                <div class="instructors_name_container">
+                    <h1 id="text5">Instructors Name</h1>
+                </div>
+
+                <div class="instructors_profession_container">
+                    <h6 id="text8">Designation</h6>
+                </div>
+
+            </div>
+
+
+
         </div>
 
     </div>
@@ -438,7 +423,8 @@
 
                 <!-- Testimonial Student Description-->
                 <div>
-                    <label class="testimonial_card1_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viva sit amet, posuere et diam.</label>
+                    <label class="testimonial_card1_description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Viva sit amet, posuere et diam.</label>
                 </div>
 
             </div>
@@ -461,7 +447,8 @@
 
                 <!-- Testimonial Student Description-->
                 <div>
-                    <label class="testimonial_card2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viva sit amet, posuere et diam.</label>
+                    <label class="testimonial_card2_description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Viva sit amet, posuere et diam.</label>
                 </div>
 
             </div>
@@ -485,30 +472,31 @@
 
                 <!-- Testimonial Student Description-->
                 <div>
-                    <label class="testimonial_card3_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viva sit amet, posuere et diam.</label>
+                    <label class="testimonial_card3_description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Viva sit amet, posuere et diam.</label>
                 </div>
 
             </div>
         </div>
 
-            <!-- square button list -->
-            <div class="square_button_collection">
-                <div class="square_button_1">
-                    <img src="assets/square.svg">
-                </div>
-
-                <div class="square_button_2">
-                    <img src="assets/square.svg">
-                </div>
-
-                <div class="square_button_3">
-                    <img src="assets/square.svg">
-                </div>
-
-                <div class="square_button_4">
-                    <img src="assets/square.svg">
-                </div>
+        <!-- square button list -->
+        <div class="square_button_collection">
+            <div class="square_button_1">
+                <img src="assets/square.svg">
             </div>
+
+            <div class="square_button_2">
+                <img src="assets/square.svg">
+            </div>
+
+            <div class="square_button_3">
+                <img src="assets/square.svg">
+            </div>
+
+            <div class="square_button_4">
+                <img src="assets/square.svg">
+            </div>
+        </div>
     </div>
 
 
@@ -533,7 +521,7 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Courses</a></li>
-                            
+
                         </ul>
                     </div>
                     <div class="footer-col">
@@ -542,10 +530,10 @@
                             <li><a href="#">123,Sion,Mumbai</a></li>
                             <li><a href="#">+012 345 67890</a></li>
                             <li><a href="#">info@example.com</a></li>
-                            
+
                         </ul>
                     </div>
-                    
+
                     <div class="footer-col">
                         <h4>follow us</h4>
                         <div class="social-links">
@@ -557,10 +545,11 @@
                     </div>
                 </div>
             </div>
-       </footer>
+        </footer>
 
 
     </div>
 
-    </body>
+</body>
+
 </html>

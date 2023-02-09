@@ -1,0 +1,106 @@
+#gradient_box {
+    position: relative;
+    display: flex;
+    width: 99%;
+    height: 97vh;
+    /* left: 3rem;
+    top: 2rem; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row;
+
+    background: linear-gradient(110.77deg, #0038FD -23.35%, #FC0000 97.93%);
+    box-shadow: 13px 13px 10px rgba(0, 0, 0, 0.58);
+    border-radius: 56px;
+
+}
+
+@media (max-width: 400px) {
+    #gradient_box {
+        flex-flow: column;
+    }
+}
+
+#ellipse {
+    width: 60%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon {
+    flex: 1;
+    /* background-color: #56DA63; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.input {
+    margin: 0.5rem;
+    width: 15vh;
+    height: 6vh;
+
+    background: none;
+    border-radius: 20vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vh;
+    /* line-height: 39px; */
+}
+.input:hover{
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+#text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5vh;
+    /* line-height: 39px; */
+}
+
+.mailid {
+    width: 55vh;
+    height: 6vh;
+    background: #ffffff;
+    border-radius: 20vh;
+}
+
+.password {
+    width: 55vh;
+    height: 6vh;
+    background: #FFFFFF;
+    border-radius: 20vh;
+    margin: 0.3rem;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 17px; */
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.text:hover{
+    font-size: 20px;
+}
